@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.text-small {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 96px;
+}
+
+.text-big {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 13px;
+
+}
+
+.text-bigger{
+    /* display: flex; */
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 200px;
+}
+.section{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+}
+
+#reg{
+    display: flex;
+    width: 620px;
+    height: 470px;
+    border: 10px solid blue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}   
+
+.text-decay {
+    color: rgba(149, 149, 149, 0.55);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.border_small {
+    display: flex;
+    width: 501px;
+    height: 75px;
+    top: 493px;
+    left: 1160px;
+    border: 1px solid black;
+    color: rgba(149, 149, 149, 0.55);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    padding-left: 30px ;
+    margin-top: 20px;
+
+}
+
+.instr {
+    display: flex;
+    width: 533px;
+    height: 93px;
+    background-color: rgba(12, 86, 197, 1);
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box {
+
+    width: 280px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.boxer {
+    width: 1520px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 133px;
+
+}
+
+.instrct {
+    display: flex;
+    width: 533px;
+    height: 93px;
+    background-color: rgba(12, 86, 197, 1);
+    color: white;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    margin-bottom: 40px;
+}

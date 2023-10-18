@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body, html {
+    color:#FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+.wraper {
+    background: url('assets/Rectangle\ 1.png') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}   
+
+.header {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    text-transform: uppercase;
+}
+
+.header-center {
+    display: flex;
+    gap: 50px;
+    color: #FFF;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    color: #FFF;
+
+}
+
+.header-right button {
+    background-color: rgba(255, 255, 255, 0);
+    width: 154px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
