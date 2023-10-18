@@ -122,6 +122,116 @@ a {
 }
 /* block 1 end */
 
+/* block 2 start  */
+
+.block2 p {
+    text-align: center;
+    margin-top: 87px;
+    color: #273456;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.block2_items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+}
+
+.block2_item {
+    width: 277px;
+    height: 324px;
+    border-radius: 15px;
+    background: #FFF;
+
+    /* Тень карточки */
+    box-shadow: 0px 17px 50px 0px rgba(32, 40, 69, 0.14);
+}
+
+.block2_checkout {
+    display: flex;
+    width: 247px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid #FF3465;
+    background: #FFF;
+    color: #FF3465;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2_item_texts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    margin-left: 33px;
+    gap: 4px
+}
+
+.block2_item_buttons {
+    display: flex;
+    gap: 6px;
+    margin-top: 13px;
+
+}
+
+.block2_item_texts h1 {
+    color: #273456;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block2_item_texts h2 {
+    color: #FF3465;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block2_item_buttons button {
+    display: inline-flex;
+    padding: 3px 13px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #297FFF;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* block 2 end  */
+
 /* block 3 start */
 
 .block_3 p {
@@ -177,3 +287,104 @@ a {
 }
 
 /* block 3 end */
+
+/* block 4 :start */
+
+.block4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+.block4 p {
+    color: #273456;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 72px;
+}
+
+.block4_box {
+    width: 601px;
+    height: 534px;
+    border-radius: 20px;
+    background: #FFF;
+    /* Тень карточки */
+    box-shadow: 0px 17px 50px 0px rgba(32, 40, 69, 0.14);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.block4_box h1 {
+    /* width: 367px; */
+    margin-top: 58px;
+    color: #273456;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block4_box_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 37px;
+    margin-bottom: 20px;
+}
+
+.block4_box_inputs input {
+    width: 473px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(39, 52, 86, 0.26);
+    background: #FFF;
+    color: rgba(39, 52, 86, 0.56);
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 26px ;;
+}
+
+.block4 button {
+    width: 473px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF3465;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* block 4 end */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+    margin-bottom: 112px;
+    color: rgba(41, 56, 111, 0.66);
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
