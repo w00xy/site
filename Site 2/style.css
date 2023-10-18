@@ -12,7 +12,11 @@ a {
     
 }
 
-.wraper {
+
+/* block 1 start */
+.block1 {
+    display: flex;
+    flex-direction: column;
     background: url('assets/Rectangle\ 1.png') no-repeat center;
     background-size: cover;
     height: 100vh;
@@ -24,6 +28,7 @@ a {
     margin-right: 200px;
     justify-content: space-between;
     padding-top: 44px;
+    align-items: center;
 }
 
 .header-left {
@@ -33,9 +38,7 @@ a {
     color: #FFF;
     font-family: PT Sans;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.88px;
     text-transform: uppercase;
 }
@@ -44,6 +47,9 @@ a {
     display: flex;
     gap: 50px;
     color: #FFF;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 15px;
 }
 
 .header-right {
@@ -51,7 +57,6 @@ a {
     align-items: center;
     gap: 27px;
     color: #FFF;
-
 }
 
 .header-right button {
@@ -63,3 +68,57 @@ a {
     border: 1px solid #FFF;
     color: #FFF;
 }
+
+.block1__center-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    gap: 21px;
+}
+
+.block1__center-item1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.block1__center-item1 h1{
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block1__center-item1 h2{
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.85px;
+}
+
+.block1__center-item2 button{
+    border-radius: 10px;
+    background: #FF3465;
+    width: 209px;
+    height: 55px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* block 1 end */
+
