@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 body, html {
-    color:#FFF;
+    color:#000000;
     font-family: 'PT Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
@@ -122,3 +122,58 @@ a {
 }
 /* block 1 end */
 
+/* block 3 start */
+
+.block_3 p {
+    text-align: center;
+    color: #273456;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block_3 {
+    display: flex;
+    margin-top: 87px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 64px;
+    flex-direction: column;
+}
+
+.block_3_items {
+    display: flex;
+    gap: 43px;
+    justify-content: center;
+
+}
+
+.block_3_text {
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+
+}
+
+.block_3_text h1 {
+    color: #273456;
+    font-family: PT Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.block_3_text h2 {
+    color: #000;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140.9%; 
+}
+
+/* block 3 end */
